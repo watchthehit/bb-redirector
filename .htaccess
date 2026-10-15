@@ -1,0 +1,5 @@
+Redirect 302 /r-meta http://169.254.169.254/latest/meta-data/
+Redirect 302 /r-local http://127.0.0.1/
+Redirect 302 /r-local8080 http://127.0.0.1:8080/
+Redirect 302 /r-gcp http://metadata.google.internal/computeMetadata/v1/
+Redirect 302 /r-ok https://brown-snail-215364.hostingersite.com/index.html
